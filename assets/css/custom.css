@@ -1,0 +1,48 @@
+#sync_with_squarespace{
+    width:10%;
+}
+.sync_with_squarespace{
+    text-align: center;
+}
+#progress-container{
+    background: aliceblue;
+    border-radius: 20px;
+}
+#progress-container #progress-bar{
+    border-radius: 20px;
+}
+#progress-message{
+    margin-top: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.sqsoverlay_loader {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #222;
+    opacity: 0.8;
+    z-index: 999999999;
+    display: none;
+}
+.sqsoverlay__inner {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.sqsoverlay__content {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.sqsloader{
+    z-index: 9999;
+}
